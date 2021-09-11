@@ -36,7 +36,7 @@ const ExpenseForm = (props) => {
     });
   };
 
-  console.log(userInput.date);
+  // console.log(userInput.date);
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -89,8 +89,8 @@ const ExpenseForm = (props) => {
       <div class="new-expense__actions">
         <button type="submit">Add Expense</button>
 
-        <p> {userInput.title}</p>
-        <p> {userInput.price}</p>
+        {/* <p> {userInput.title}</p> */}
+        {/* <p> {userInput.price}</p> */}
       </div>
     </form>
   );

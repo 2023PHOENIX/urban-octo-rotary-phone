@@ -11,6 +11,7 @@ const NewExpense = (props) => {
       ...enteredExpenseData,
       id : Math.random()
     };
+    
     props.appendExpense(expenseData);
     
     // console.log(expenseData);
